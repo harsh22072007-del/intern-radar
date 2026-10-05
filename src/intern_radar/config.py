@@ -13,17 +13,24 @@ class FilterConfig:
     degrees_any: tuple[str, ...] = ()
     title_require_any: tuple[str, ...] = ("intern",)
     title_exclude: tuple[str, ...] = ()
-    # Applied only to postings with no term metadata (direct ATS boards);
-    # term-bearing listings are already gated by `terms`.
+
+    # Applied only to postings with no term metadata (direct ATS boards).
     untermed_title_exclude: tuple[str, ...] = ()
+
+    # Reject postings outside the allowed locations.
+    location_allowlist: tuple[str, ...] = ()
+
+    # Reject specific locations.
     location_exclude: tuple[str, ...] = ()
-    # Companies to drop outright, whatever they post. For employers whose
-    # postings can never become an application: an unreachable apply flow, or
-    # a lifetime cap on applications you have already spent.
+
+    # Only companies in this list are allowed.
+    # Empty means no company allowlist is applied.
+    company_allowlist: tuple[str, ...] = ()
+
+    # Companies to drop outright.
     company_exclude: tuple[str, ...] = ()
-    # Extra gate for postings from auto-discovered boards only (owner,
-    # 2026-09-30). Those boards carry no job category, so without this the
-    # fuzzy "intern" search admits every labor-relations and finance intern.
+
+    # Extra gate for postings from auto-discovered boards only.
     discovered_title_require_any: tuple[str, ...] = ()
     discovered_title_exclude: tuple[str, ...] = ()
 
@@ -33,13 +40,15 @@ class SourcesConfig:
     simplify: bool = True
     vanshb03: bool = False
     speedyapply: bool = False
+
     greenhouse_boards: tuple[str, ...] = ()
     lever_companies: tuple[str, ...] = ()
     ashby_orgs: tuple[str, ...] = ()
     workday_boards: tuple[str, ...] = ()
     smartrecruiters_companies: tuple[str, ...] = ()
-    # ISO country code filter for SmartRecruiters queries ("" = worldwide).
-    # Global boards like BoschGroup are ~90% non-US postings otherwise.
+
+    # ISO country code filter for SmartRecruiters queries.
+    # Empty string = worldwide.
     smartrecruiters_country: str = ""
 
 
@@ -58,8 +67,10 @@ class Config:
 def _str_tuple(raw: Any) -> tuple[str, ...]:
     if raw is None:
         return ()
+
     if not isinstance(raw, list) or not all(isinstance(x, str) for x in raw):
         raise ValueError(f"expected a list of strings, got {raw!r}")
+
     return tuple(raw)
 
 
@@ -68,35 +79,76 @@ def load_config(path: Path) -> Config:
         data = tomllib.load(f)
 
     f_raw = data.get("filters", {})
+
     filters = FilterConfig(
         terms=_str_tuple(f_raw.get("terms", ["Summer 2027"])),
         categories=_str_tuple(f_raw.get("categories", [])),
         degrees_any=_str_tuple(f_raw.get("degrees_any", [])),
-        title_require_any=_str_tuple(f_raw.get("title_require_any", ["intern"])),
-        title_exclude=_str_tuple(f_raw.get("title_exclude", [])),
-        untermed_title_exclude=_str_tuple(f_raw.get("untermed_title_exclude", [])),
-        location_exclude=_str_tuple(f_raw.get("location_exclude", [])),
-        company_exclude=_str_tuple(f_raw.get("company_exclude", [])),
-        discovered_title_require_any=_str_tuple(f_raw.get("discovered_title_require_any", [])),
-        discovered_title_exclude=_str_tuple(f_raw.get("discovered_title_exclude", [])),
+        title_require_any=_str_tuple(
+            f_raw.get("title_require_any", ["intern"])
+        ),
+        title_exclude=_str_tuple(
+            f_raw.get("title_exclude", [])
+        ),
+        untermed_title_exclude=_str_tuple(
+            f_raw.get("untermed_title_exclude", [])
+        ),
+        location_allowlist=_str_tuple(
+            f_raw.get("location_allowlist", [])
+        ),
+        location_exclude=_str_tuple(
+            f_raw.get("location_exclude", [])
+        ),
+        company_allowlist=_str_tuple(
+            f_raw.get("company_allowlist", [])
+        ),
+        company_exclude=_str_tuple(
+            f_raw.get("company_exclude", [])
+        ),
+        discovered_title_require_any=_str_tuple(
+            f_raw.get("discovered_title_require_any", [])
+        ),
+        discovered_title_exclude=_str_tuple(
+            f_raw.get("discovered_title_exclude", [])
+        ),
     )
 
     s_raw = data.get("sources", {})
+
     sources = SourcesConfig(
         simplify=bool(s_raw.get("simplify", True)),
         vanshb03=bool(s_raw.get("vanshb03", False)),
         speedyapply=bool(s_raw.get("speedyapply", False)),
-        greenhouse_boards=_str_tuple(s_raw.get("greenhouse", {}).get("boards", [])),
-        lever_companies=_str_tuple(s_raw.get("lever", {}).get("companies", [])),
-        ashby_orgs=_str_tuple(s_raw.get("ashby", {}).get("orgs", [])),
-        workday_boards=_str_tuple(s_raw.get("workday", {}).get("boards", [])),
+        greenhouse_boards=_str_tuple(
+            s_raw.get("greenhouse", {}).get("boards", [])
+        ),
+        lever_companies=_str_tuple(
+            s_raw.get("lever", {}).get("companies", [])
+        ),
+        ashby_orgs=_str_tuple(
+            s_raw.get("ashby", {}).get("orgs", [])
+        ),
+        workday_boards=_str_tuple(
+            s_raw.get("workday", {}).get("boards", [])
+        ),
         smartrecruiters_companies=_str_tuple(
             s_raw.get("smartrecruiters", {}).get("companies", [])
         ),
-        smartrecruiters_country=str(s_raw.get("smartrecruiters", {}).get("country", "")),
+        smartrecruiters_country=str(
+            s_raw.get("smartrecruiters", {}).get("country", "")
+        ),
     )
 
     n_raw = data.get("notify", {})
-    notify = NotifyConfig(github_issues=bool(n_raw.get("github_issues", True)))
 
-    return Config(filters=filters, sources=sources, notify=notify)
+    notify = NotifyConfig(
+        github_issues=bool(
+            n_raw.get("github_issues", True)
+        )
+    )
+
+    return Config(
+        filters=filters,
+        sources=sources,
+        notify=notify,
+    )
