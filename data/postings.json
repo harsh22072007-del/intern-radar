@@ -57692,14 +57692,21 @@
   "source": "workday"
  },
  "url:https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/california---san-francisco/summer-2027-intern---software-engineer_jr340771": {
-  "company": "salesforce",
-  "title": "Summer 2027 Intern - Software Engineer",
+  "company": "Salesforce",
+  "title": "Software Engineer Intern",
   "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771",
   "locations": [
-   "8 Locations"
+   "Palo Alto, CA",
+   "Seattle, WA",
+   "Indianapolis, IN",
+   "SF",
+   "NYC",
+   "Bellevue, WA",
+   "Atlanta, GA",
+   "Burlington, MA"
   ],
-  "posted_at": "2026-09-05",
-  "source": "workday"
+  "posted_at": "2026-05-07",
+  "source": "simplify"
  },
  "url:https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/mexico---mexico-city/ai-builder-intern--mexico-_jr359971-1": {
   "company": "salesforce",
