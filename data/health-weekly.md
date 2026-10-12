@@ -1,21 +1,21 @@
-# intern-radar weekly health — 2026-W41
+# intern-radar weekly health — 2026-W42
 
-Runs this week: 47
+Runs this week: 34
 
 | family | matched postings | unique finds (30 d) |
 |---|---|---|
-| ashby | 11864 | 142 |
-| greenhouse | 38077 | 564 |
-| lever | 5831 | 85 |
-| simplify | 58282 | 674 |
-| smartrecruiters | 4828 | 92 |
-| speedyapply | 32034 | 203 |
-| vanshb03 | 15181 | 244 |
-| workday | 95686 | 2222 |
+| ashby | 1275 | 141 |
+| greenhouse | 4188 | 564 |
+| lever | 639 | 85 |
+| simplify | 4929 | 676 |
+| smartrecruiters | 520 | 92 |
+| speedyapply | 3440 | 203 |
+| vanshb03 | 1615 | 244 |
+| workday | 10801 | 2267 |
 
 ## Head start over simplify (median hours, n ≥ 5)
 
-- ashby: +0.0 h (n=57)
+- ashby: +0.0 h (n=58)
 - greenhouse: +0.0 h (n=173)
 - lever: +0.0 h (n=17)
 - smartrecruiters: +0.0 h (n=13)
@@ -23,19 +23,26 @@ Runs this week: 47
 - vanshb03: +0.0 h (n=27)
 - workday: +0.0 h (n=369)
 
-## Disabled boards (5)
+## Disabled boards (10)
 
+- ashby:atomicsemi
+- ashby:whatnot
 - greenhouse:amplitude
 - greenhouse:clickhouse
 - greenhouse:glossgenius
 - greenhouse:temporaltechnologies
+- lever:cesiumastro
 - workday:comcast.wd5/comcast_careers
+- workday:liveramp.wd5/liverampcareers
+- workday:osv-cci.wd1/ccicareers
 
-## Deep (consider pinning) boards (38)
+## Deep (consider pinning) boards (40)
 
 - workday:barclays.wd3/external_career_site_barclays
 - workday:basspro.wd1/careers
+- workday:blackrock.wd1/blackrock_professional
 - workday:caci.wd1/external
+- workday:capitalone.wd12/capital_one
 - workday:clearwateranalytics.wd1/clearwater_analytics_careers
 - workday:cox.wd1/cox_external_career_site_1
 - workday:crowe.wd12/external_careers
