@@ -1,8 +1,5 @@
 {
  "alerts": {
-  "R3|vanshb03": {
-   "opened_at": "2026-10-02T05:21:11+00:00"
-  },
   "R6|ashby:maximor": {
    "opened_at": "2026-10-16T09:14:09+00:00"
   },
@@ -11,7 +8,7 @@
   }
  },
  "last_health_ntfy_at": "2026-10-04T22:37:05+00:00",
- "last_run_at": "2026-10-17T16:36:52+00:00",
+ "last_run_at": "2026-10-17T18:48:15+00:00",
  "runner": "actions",
  "runs": [
   {
@@ -9085,6 +9082,87 @@
    },
    "runner": "actions",
    "seconds": 107.0
+  },
+  {
+   "at": "2026-10-17T18:48:15+00:00",
+   "boards_polled": 606,
+   "boards_skipped_budget": 0,
+   "families": {
+    "ashby": {
+     "errors": 0,
+     "jobs": 87,
+     "matches": 0,
+     "newest": "2026-10-17",
+     "ok": 87,
+     "postings": 5042,
+     "seconds": 8.11
+    },
+    "greenhouse": {
+     "errors": 0,
+     "jobs": 163,
+     "matches": 2,
+     "newest": "2026-10-17",
+     "ok": 163,
+     "postings": 22160,
+     "seconds": 13.07
+    },
+    "lever": {
+     "errors": 0,
+     "jobs": 23,
+     "matches": 0,
+     "newest": "2026-10-17",
+     "ok": 23,
+     "postings": 2393,
+     "seconds": 15.96
+    },
+    "simplify": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 2,
+     "newest": "2026-10-17",
+     "ok": 1,
+     "postings": 4826,
+     "seconds": 0.3
+    },
+    "smartrecruiters": {
+     "errors": 0,
+     "jobs": 13,
+     "matches": 0,
+     "newest": "2026-10-17",
+     "ok": 13,
+     "postings": 1102,
+     "seconds": 7.57
+    },
+    "speedyapply": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-10-16",
+     "ok": 1,
+     "postings": 878,
+     "seconds": 0.35
+    },
+    "vanshb03": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-10-17",
+     "ok": 1,
+     "postings": 508,
+     "seconds": 0.1
+    },
+    "workday": {
+     "errors": 0,
+     "jobs": 320,
+     "matches": 0,
+     "newest": "2026-10-17",
+     "ok": 320,
+     "postings": 14588,
+     "seconds": 524.45
+    }
+   },
+   "runner": "actions",
+   "seconds": 86.7
   }
  ],
  "version": 1,
