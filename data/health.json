@@ -1,11 +1,7 @@
 {
- "alerts": {
-  "R6|greenhouse:visiersolutionsinc": {
-   "opened_at": "2026-10-16T21:37:08+00:00"
-  }
- },
+ "alerts": {},
  "last_health_ntfy_at": "2026-10-04T22:37:05+00:00",
- "last_run_at": "2026-10-18T20:59:34+00:00",
+ "last_run_at": "2026-10-18T22:59:24+00:00",
  "runner": "actions",
  "runs": [
   {
@@ -9808,6 +9804,87 @@
    },
    "runner": "actions",
    "seconds": 86.1
+  },
+  {
+   "at": "2026-10-18T22:59:24+00:00",
+   "boards_polled": 606,
+   "boards_skipped_budget": 0,
+   "families": {
+    "ashby": {
+     "errors": 0,
+     "jobs": 87,
+     "matches": 0,
+     "newest": "2026-10-18",
+     "ok": 87,
+     "postings": 5043,
+     "seconds": 11.16
+    },
+    "greenhouse": {
+     "errors": 0,
+     "jobs": 163,
+     "matches": 2,
+     "newest": "2026-10-18",
+     "ok": 163,
+     "postings": 22145,
+     "seconds": 13.31
+    },
+    "lever": {
+     "errors": 0,
+     "jobs": 23,
+     "matches": 0,
+     "newest": "2026-10-18",
+     "ok": 23,
+     "postings": 2404,
+     "seconds": 12.51
+    },
+    "simplify": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 2,
+     "newest": "2026-10-18",
+     "ok": 1,
+     "postings": 4793,
+     "seconds": 0.29
+    },
+    "smartrecruiters": {
+     "errors": 0,
+     "jobs": 13,
+     "matches": 0,
+     "newest": "2026-10-18",
+     "ok": 13,
+     "postings": 1100,
+     "seconds": 7.65
+    },
+    "speedyapply": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-10-16",
+     "ok": 1,
+     "postings": 878,
+     "seconds": 0.21
+    },
+    "vanshb03": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-10-17",
+     "ok": 1,
+     "postings": 508,
+     "seconds": 0.12
+    },
+    "workday": {
+     "errors": 2,
+     "jobs": 320,
+     "matches": 0,
+     "newest": "2026-10-18",
+     "ok": 318,
+     "postings": 14468,
+     "seconds": 551.89
+    }
+   },
+   "runner": "actions",
+   "seconds": 89.7
   }
  ],
  "version": 1,
