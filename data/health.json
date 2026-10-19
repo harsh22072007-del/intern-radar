@@ -1,7 +1,11 @@
 {
- "alerts": {},
+ "alerts": {
+  "R5|deep-crawl workday:pwc.wd3/us_entry_level_careers": {
+   "opened_at": "2026-10-19T19:14:16+00:00"
+  }
+ },
  "last_health_ntfy_at": "2026-10-04T22:37:05+00:00",
- "last_run_at": "2026-10-19T12:55:10+00:00",
+ "last_run_at": "2026-10-19T19:14:16+00:00",
  "runner": "actions",
  "runs": [
   {
@@ -10128,6 +10132,87 @@
    },
    "runner": "actions",
    "seconds": 126.7
+  },
+  {
+   "at": "2026-10-19T19:14:16+00:00",
+   "boards_polled": 606,
+   "boards_skipped_budget": 0,
+   "families": {
+    "ashby": {
+     "errors": 0,
+     "jobs": 87,
+     "matches": 0,
+     "newest": "2026-10-19",
+     "ok": 87,
+     "postings": 5033,
+     "seconds": 5.6
+    },
+    "greenhouse": {
+     "errors": 0,
+     "jobs": 163,
+     "matches": 1,
+     "newest": "2026-10-19",
+     "ok": 163,
+     "postings": 22052,
+     "seconds": 44.56
+    },
+    "lever": {
+     "errors": 0,
+     "jobs": 23,
+     "matches": 0,
+     "newest": "2026-10-19",
+     "ok": 23,
+     "postings": 2404,
+     "seconds": 57.04
+    },
+    "simplify": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 2,
+     "newest": "2026-10-19",
+     "ok": 1,
+     "postings": 4768,
+     "seconds": 0.28
+    },
+    "smartrecruiters": {
+     "errors": 0,
+     "jobs": 13,
+     "matches": 0,
+     "newest": "2026-10-19",
+     "ok": 13,
+     "postings": 1091,
+     "seconds": 7.77
+    },
+    "speedyapply": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-10-16",
+     "ok": 1,
+     "postings": 878,
+     "seconds": 0.14
+    },
+    "vanshb03": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-10-18",
+     "ok": 1,
+     "postings": 531,
+     "seconds": 0.32
+    },
+    "workday": {
+     "errors": 2,
+     "jobs": 320,
+     "matches": 0,
+     "newest": "2026-10-19",
+     "ok": 318,
+     "postings": 21609,
+     "seconds": 958.85
+    }
+   },
+   "runner": "actions",
+   "seconds": 168.8
   }
  ],
  "version": 1,
