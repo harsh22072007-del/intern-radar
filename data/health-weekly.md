@@ -1,13 +1,13 @@
-# intern-radar weekly health — 2026-W43
+# intern-radar weekly health — 2026-W44
 
-Runs this week: 40
+Runs this week: 41
 
 | family | matched postings | unique finds (30 d) |
 |---|---|---|
 | ashby | 0 | 141 |
-| greenhouse | 88 | 564 |
+| greenhouse | 41 | 564 |
 | lever | 0 | 85 |
-| simplify | 80 | 676 |
+| simplify | 82 | 676 |
 | smartrecruiters | 0 | 92 |
 | speedyapply | 0 | 203 |
 | vanshb03 | 0 | 244 |
@@ -23,7 +23,7 @@ Runs this week: 40
 - vanshb03: +0.0 h (n=27)
 - workday: +0.0 h (n=369)
 
-## Disabled boards (12)
+## Disabled boards (13)
 
 - ashby:atomicsemi
 - ashby:maximor
@@ -31,6 +31,7 @@ Runs this week: 40
 - greenhouse:amplitude
 - greenhouse:clickhouse
 - greenhouse:glossgenius
+- greenhouse:oldmissioncapital
 - greenhouse:temporaltechnologies
 - greenhouse:visiersolutionsinc
 - lever:cesiumastro
@@ -38,7 +39,7 @@ Runs this week: 40
 - workday:liveramp.wd5/liverampcareers
 - workday:osv-cci.wd1/ccicareers
 
-## Deep (consider pinning) boards (41)
+## Deep (consider pinning) boards (42)
 
 - workday:barclays.wd3/external_career_site_barclays
 - workday:basspro.wd1/careers
@@ -60,6 +61,7 @@ Runs this week: 40
 - workday:gevernova.wd5/vernova_externalsite
 - workday:globalhr.wd5/private_posting_no_tmp
 - workday:globalhr.wd5/rec_rtx_ext_gateway
+- workday:hcsc.wd1/hcsc_external
 - workday:invesco.wd1/ivz
 - workday:jci.wd5/jci
 - workday:jj.wd5/jj
