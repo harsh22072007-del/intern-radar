@@ -1,7 +1,11 @@
 {
- "alerts": {},
+ "alerts": {
+  "R5|deep-crawl workday:pwc.wd3/us_entry_level_careers": {
+   "opened_at": "2026-11-01T16:16:19+00:00"
+  }
+ },
  "last_health_ntfy_at": "2026-10-04T22:37:05+00:00",
- "last_run_at": "2026-11-01T09:07:47+00:00",
+ "last_run_at": "2026-11-01T16:16:19+00:00",
  "runner": "actions",
  "runs": [
   {
@@ -15636,6 +15640,87 @@
    },
    "runner": "actions",
    "seconds": 117.2
+  },
+  {
+   "at": "2026-11-01T16:16:19+00:00",
+   "boards_polled": 605,
+   "boards_skipped_budget": 0,
+   "families": {
+    "ashby": {
+     "errors": 0,
+     "jobs": 87,
+     "matches": 0,
+     "newest": "2026-11-01",
+     "ok": 87,
+     "postings": 5155,
+     "seconds": 11.98
+    },
+    "greenhouse": {
+     "errors": 0,
+     "jobs": 162,
+     "matches": 1,
+     "newest": "2026-11-01",
+     "ok": 162,
+     "postings": 22299,
+     "seconds": 25.66
+    },
+    "lever": {
+     "errors": 0,
+     "jobs": 23,
+     "matches": 0,
+     "newest": "2026-10-31",
+     "ok": 23,
+     "postings": 2400,
+     "seconds": 12.71
+    },
+    "simplify": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 2,
+     "newest": "2026-11-01",
+     "ok": 1,
+     "postings": 5138,
+     "seconds": 0.4
+    },
+    "smartrecruiters": {
+     "errors": 0,
+     "jobs": 13,
+     "matches": 0,
+     "newest": "2026-11-01",
+     "ok": 13,
+     "postings": 1061,
+     "seconds": 8.15
+    },
+    "speedyapply": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-01",
+     "ok": 1,
+     "postings": 848,
+     "seconds": 0.24
+    },
+    "vanshb03": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-01",
+     "ok": 1,
+     "postings": 1846,
+     "seconds": 0.26
+    },
+    "workday": {
+     "errors": 0,
+     "jobs": 320,
+     "matches": 0,
+     "newest": "2026-11-01",
+     "ok": 320,
+     "postings": 21270,
+     "seconds": 688.24
+    }
+   },
+   "runner": "actions",
+   "seconds": 113.7
   }
  ],
  "version": 1,
