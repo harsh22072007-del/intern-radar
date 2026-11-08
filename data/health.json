@@ -2,13 +2,10 @@
  "alerts": {
   "R1|workday": {
    "opened_at": "2026-11-05T17:56:52+00:00"
-  },
-  "R5|deep-crawl workday:pwc.wd3/us_entry_level_careers": {
-   "opened_at": "2026-11-07T16:48:31+00:00"
   }
  },
  "last_health_ntfy_at": "2026-10-04T22:37:05+00:00",
- "last_run_at": "2026-11-08T00:24:14+00:00",
+ "last_run_at": "2026-11-08T06:36:27+00:00",
  "runner": "actions",
  "runs": [
   {
@@ -17749,6 +17746,87 @@
    },
    "runner": "actions",
    "seconds": 112.9
+  },
+  {
+   "at": "2026-11-08T06:36:27+00:00",
+   "boards_polled": 622,
+   "boards_skipped_budget": 0,
+   "families": {
+    "ashby": {
+     "errors": 0,
+     "jobs": 93,
+     "matches": 0,
+     "newest": "2026-11-08",
+     "ok": 93,
+     "postings": 5573,
+     "seconds": 6.32
+    },
+    "greenhouse": {
+     "errors": 0,
+     "jobs": 168,
+     "matches": 2,
+     "newest": "2026-11-07",
+     "ok": 168,
+     "postings": 23441,
+     "seconds": 42.47
+    },
+    "lever": {
+     "errors": 0,
+     "jobs": 23,
+     "matches": 0,
+     "newest": "2026-11-07",
+     "ok": 23,
+     "postings": 2404,
+     "seconds": 57.68
+    },
+    "simplify": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 2,
+     "newest": "2026-11-07",
+     "ok": 1,
+     "postings": 5377,
+     "seconds": 0.35
+    },
+    "smartrecruiters": {
+     "errors": 0,
+     "jobs": 13,
+     "matches": 0,
+     "newest": "2026-11-06",
+     "ok": 13,
+     "postings": 1062,
+     "seconds": 6.85
+    },
+    "speedyapply": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-07",
+     "ok": 1,
+     "postings": 830,
+     "seconds": 0.22
+    },
+    "vanshb03": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-08",
+     "ok": 1,
+     "postings": 2269,
+     "seconds": 0.17
+    },
+    "workday": {
+     "errors": 1,
+     "jobs": 325,
+     "matches": 0,
+     "newest": "2026-11-08",
+     "ok": 324,
+     "postings": 20264,
+     "seconds": 617.65
+    }
+   },
+   "runner": "actions",
+   "seconds": 121.9
   }
  ],
  "version": 1,
