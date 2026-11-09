@@ -1,23 +1,20 @@
-# intern-radar weekly health — 2026-W45
+# intern-radar weekly health — 2026-W46
 
-Runs this week: 33
+Runs this week: 28
 
 | family | matched postings | unique finds (30 d) |
 |---|---|---|
 | ashby | 0 | 0 |
-| greenhouse | 33 | 29 |
-| lever | 0 | 9 |
-| simplify | 66 | 36 |
+| greenhouse | 53 | 2 |
+| lever | 0 | 0 |
+| simplify | 56 | 2 |
 | smartrecruiters | 0 | 0 |
-| speedyapply | 0 | 14 |
+| speedyapply | 0 | 0 |
 | vanshb03 | 0 | 0 |
-| workday | 0 | 79 |
+| workday | 2 | 1 |
 
 ## Head start over simplify (median hours, n ≥ 5)
 
-- greenhouse: -2.9 h (n=7)
-- speedyapply: -15.7 h (n=15)
-- workday: +2.9 h (n=20)
 
 ## Disabled boards (13)
 
@@ -35,7 +32,7 @@ Runs this week: 33
 - workday:liveramp.wd5/liverampcareers
 - workday:osv-cci.wd1/ccicareers
 
-## Deep (consider pinning) boards (43)
+## Deep (consider pinning) boards (44)
 
 - workday:barclays.wd3/external_career_site_barclays
 - workday:basspro.wd1/careers
@@ -72,6 +69,7 @@ Runs this week: 33
 - workday:nike.wd1/nke
 - workday:pae.wd1/amentum_careers
 - workday:pwc.wd3/us_entry_level_careers
+- workday:rbc.wd3/rbcglobal1
 - workday:regeneron.wd1/careers
 - workday:ryancompanies.wd5/ryancompanies
 - workday:snc.wd1/snc_external_career_site
