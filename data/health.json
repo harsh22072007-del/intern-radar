@@ -1,14 +1,11 @@
 {
  "alerts": {
-  "R1|workday": {
-   "opened_at": "2026-11-05T17:56:52+00:00"
-  },
   "R6|workday:nxp.wd3/careers": {
    "opened_at": "2026-11-10T03:24:36+00:00"
   }
  },
  "last_health_ntfy_at": "2026-10-04T22:37:05+00:00",
- "last_run_at": "2026-11-11T07:00:21+00:00",
+ "last_run_at": "2026-11-11T15:04:20+00:00",
  "runner": "actions",
  "runs": [
   {
@@ -18721,6 +18718,87 @@
    },
    "runner": "actions",
    "seconds": 187.8
+  },
+  {
+   "at": "2026-11-11T15:04:20+00:00",
+   "boards_polled": 621,
+   "boards_skipped_budget": 0,
+   "families": {
+    "ashby": {
+     "errors": 0,
+     "jobs": 93,
+     "matches": 0,
+     "newest": "2026-11-11",
+     "ok": 93,
+     "postings": 5569,
+     "seconds": 12.58
+    },
+    "greenhouse": {
+     "errors": 0,
+     "jobs": 168,
+     "matches": 2,
+     "newest": "2026-11-11",
+     "ok": 168,
+     "postings": 23374,
+     "seconds": 18.11
+    },
+    "lever": {
+     "errors": 0,
+     "jobs": 23,
+     "matches": 0,
+     "newest": "2026-11-11",
+     "ok": 23,
+     "postings": 2398,
+     "seconds": 35.07
+    },
+    "simplify": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 2,
+     "newest": "2026-11-11",
+     "ok": 1,
+     "postings": 5353,
+     "seconds": 0.4
+    },
+    "smartrecruiters": {
+     "errors": 0,
+     "jobs": 13,
+     "matches": 0,
+     "newest": "2026-11-11",
+     "ok": 13,
+     "postings": 1158,
+     "seconds": 8.94
+    },
+    "speedyapply": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-11",
+     "ok": 1,
+     "postings": 820,
+     "seconds": 0.07
+    },
+    "vanshb03": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-11",
+     "ok": 1,
+     "postings": 2445,
+     "seconds": 0.2
+    },
+    "workday": {
+     "errors": 0,
+     "jobs": 324,
+     "matches": 1,
+     "newest": "2026-11-11",
+     "ok": 324,
+     "postings": 20233,
+     "seconds": 837.91
+    }
+   },
+   "runner": "actions",
+   "seconds": 143.6
   }
  ],
  "version": 1,
