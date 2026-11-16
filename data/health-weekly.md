@@ -1,22 +1,22 @@
-# intern-radar weekly health — 2026-W46
+# intern-radar weekly health — 2026-W47
 
-Runs this week: 28
+Runs this week: 26
 
 | family | matched postings | unique finds (30 d) |
 |---|---|---|
 | ashby | 0 | 0 |
-| greenhouse | 53 | 2 |
+| greenhouse | 52 | 2 |
 | lever | 0 | 0 |
-| simplify | 56 | 2 |
+| simplify | 52 | 2 |
 | smartrecruiters | 0 | 0 |
 | speedyapply | 0 | 0 |
 | vanshb03 | 0 | 0 |
-| workday | 2 | 1 |
+| workday | 1 | 2 |
 
 ## Head start over simplify (median hours, n ≥ 5)
 
 
-## Disabled boards (13)
+## Disabled boards (14)
 
 - ashby:atomicsemi
 - ashby:maximor
@@ -30,9 +30,10 @@ Runs this week: 28
 - lever:cesiumastro
 - workday:comcast.wd5/comcast_careers
 - workday:liveramp.wd5/liverampcareers
+- workday:nxp.wd3/careers
 - workday:osv-cci.wd1/ccicareers
 
-## Deep (consider pinning) boards (44)
+## Deep (consider pinning) boards (45)
 
 - workday:barclays.wd3/external_career_site_barclays
 - workday:basspro.wd1/careers
@@ -72,6 +73,7 @@ Runs this week: 28
 - workday:rbc.wd3/rbcglobal1
 - workday:regeneron.wd1/careers
 - workday:ryancompanies.wd5/ryancompanies
+- workday:saabusa.wd1/saab_careers
 - workday:snc.wd1/snc_external_career_site
 - workday:southstatebank.wd5/external
 - workday:tencent.wd1/tencent_careers
