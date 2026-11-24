@@ -1,11 +1,14 @@
 {
  "alerts": {
+  "R5|deep-crawl workday:pwc.wd3/us_entry_level_careers": {
+   "opened_at": "2026-11-24T05:53:28+00:00"
+  },
   "R5|deep-crawl workday:tjx.wd1/tjx_external": {
    "opened_at": "2026-11-17T09:01:45+00:00"
   }
  },
  "last_health_ntfy_at": "2026-10-04T22:37:05+00:00",
- "last_run_at": "2026-11-23T21:59:14+00:00",
+ "last_run_at": "2026-11-24T05:53:28+00:00",
  "runner": "actions",
  "runs": [
   {
@@ -22201,6 +22204,87 @@
    },
    "runner": "actions",
    "seconds": 113.1
+  },
+  {
+   "at": "2026-11-24T05:53:28+00:00",
+   "boards_polled": 606,
+   "boards_skipped_budget": 0,
+   "families": {
+    "ashby": {
+     "errors": 0,
+     "jobs": 88,
+     "matches": 0,
+     "newest": "2026-11-24",
+     "ok": 88,
+     "postings": 5245,
+     "seconds": 7.6
+    },
+    "greenhouse": {
+     "errors": 0,
+     "jobs": 163,
+     "matches": 2,
+     "newest": "2026-11-24",
+     "ok": 163,
+     "postings": 21867,
+     "seconds": 14.72
+    },
+    "lever": {
+     "errors": 0,
+     "jobs": 23,
+     "matches": 0,
+     "newest": "2026-11-23",
+     "ok": 23,
+     "postings": 1720,
+     "seconds": 10.1
+    },
+    "simplify": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 2,
+     "newest": "2026-11-24",
+     "ok": 1,
+     "postings": 5081,
+     "seconds": 0.98
+    },
+    "smartrecruiters": {
+     "errors": 0,
+     "jobs": 13,
+     "matches": 0,
+     "newest": "2026-11-24",
+     "ok": 13,
+     "postings": 1123,
+     "seconds": 8.41
+    },
+    "speedyapply": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-23",
+     "ok": 1,
+     "postings": 832,
+     "seconds": 0.06
+    },
+    "vanshb03": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-24",
+     "ok": 1,
+     "postings": 2497,
+     "seconds": 0.38
+    },
+    "workday": {
+     "errors": 1,
+     "jobs": 319,
+     "matches": 0,
+     "newest": "2026-11-24",
+     "ok": 318,
+     "postings": 15090,
+     "seconds": 558.89
+    }
+   },
+   "runner": "actions",
+   "seconds": 100.7
   }
  ],
  "version": 1,
