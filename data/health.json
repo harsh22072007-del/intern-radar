@@ -1,5 +1,8 @@
 {
  "alerts": {
+  "R5|deep-crawl workday:globalhr.wd5/private_posting_no_tmp": {
+   "opened_at": "2026-11-25T10:21:59+00:00"
+  },
   "R5|deep-crawl workday:pwc.wd3/us_entry_level_careers": {
    "opened_at": "2026-11-24T05:53:28+00:00"
   },
@@ -11,7 +14,7 @@
   }
  },
  "last_health_ntfy_at": "2026-10-04T22:37:05+00:00",
- "last_run_at": "2026-11-25T01:32:05+00:00",
+ "last_run_at": "2026-11-25T10:21:59+00:00",
  "runner": "actions",
  "runs": [
   {
@@ -22450,6 +22453,87 @@
    },
    "runner": "actions",
    "seconds": 105.7
+  },
+  {
+   "at": "2026-11-25T10:21:59+00:00",
+   "boards_polled": 605,
+   "boards_skipped_budget": 0,
+   "families": {
+    "ashby": {
+     "errors": 0,
+     "jobs": 88,
+     "matches": 0,
+     "newest": "2026-11-25",
+     "ok": 88,
+     "postings": 5252,
+     "seconds": 5.55
+    },
+    "greenhouse": {
+     "errors": 0,
+     "jobs": 163,
+     "matches": 2,
+     "newest": "2026-11-25",
+     "ok": 163,
+     "postings": 21812,
+     "seconds": 16.8
+    },
+    "lever": {
+     "errors": 0,
+     "jobs": 23,
+     "matches": 0,
+     "newest": "2026-11-25",
+     "ok": 23,
+     "postings": 1709,
+     "seconds": 18.53
+    },
+    "simplify": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 2,
+     "newest": "2026-11-25",
+     "ok": 1,
+     "postings": 5064,
+     "seconds": 0.36
+    },
+    "smartrecruiters": {
+     "errors": 0,
+     "jobs": 13,
+     "matches": 0,
+     "newest": "2026-11-25",
+     "ok": 13,
+     "postings": 1131,
+     "seconds": 7.11
+    },
+    "speedyapply": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-25",
+     "ok": 1,
+     "postings": 840,
+     "seconds": 0.12
+    },
+    "vanshb03": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-25",
+     "ok": 1,
+     "postings": 2492,
+     "seconds": 0.46
+    },
+    "workday": {
+     "errors": 1,
+     "jobs": 318,
+     "matches": 0,
+     "newest": "2026-11-25",
+     "ok": 317,
+     "postings": 15001,
+     "seconds": 518.9
+    }
+   },
+   "runner": "actions",
+   "seconds": 98.2
   }
  ],
  "version": 1,
