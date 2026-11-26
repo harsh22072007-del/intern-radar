@@ -8,13 +8,10 @@
   },
   "R5|deep-crawl workday:tjx.wd1/tjx_external": {
    "opened_at": "2026-11-17T09:01:45+00:00"
-  },
-  "R6|workday:greenheckgroup.wd5/external": {
-   "opened_at": "2026-11-24T17:28:35+00:00"
   }
  },
  "last_health_ntfy_at": "2026-10-04T22:37:05+00:00",
- "last_run_at": "2026-11-26T12:12:35+00:00",
+ "last_run_at": "2026-11-26T21:51:43+00:00",
  "runner": "actions",
  "runs": [
   {
@@ -22777,6 +22774,87 @@
    },
    "runner": "actions",
    "seconds": 102.4
+  },
+  {
+   "at": "2026-11-26T21:51:43+00:00",
+   "boards_polled": 614,
+   "boards_skipped_budget": 0,
+   "families": {
+    "ashby": {
+     "errors": 0,
+     "jobs": 91,
+     "matches": 0,
+     "newest": "2026-11-26",
+     "ok": 91,
+     "postings": 6200,
+     "seconds": 10.86
+    },
+    "greenhouse": {
+     "errors": 1,
+     "jobs": 165,
+     "matches": 2,
+     "newest": "2026-11-26",
+     "ok": 164,
+     "postings": 22610,
+     "seconds": 13.57
+    },
+    "lever": {
+     "errors": 0,
+     "jobs": 23,
+     "matches": 0,
+     "newest": "2026-11-25",
+     "ok": 23,
+     "postings": 1684,
+     "seconds": 10.35
+    },
+    "simplify": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 2,
+     "newest": "2026-11-26",
+     "ok": 1,
+     "postings": 5079,
+     "seconds": 0.34
+    },
+    "smartrecruiters": {
+     "errors": 0,
+     "jobs": 13,
+     "matches": 0,
+     "newest": "2026-11-26",
+     "ok": 13,
+     "postings": 1137,
+     "seconds": 5.43
+    },
+    "speedyapply": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-26",
+     "ok": 1,
+     "postings": 850,
+     "seconds": 0.24
+    },
+    "vanshb03": {
+     "errors": 0,
+     "jobs": 1,
+     "matches": 0,
+     "newest": "2026-11-26",
+     "ok": 1,
+     "postings": 2526,
+     "seconds": 0.13
+    },
+    "workday": {
+     "errors": 1,
+     "jobs": 322,
+     "matches": 0,
+     "newest": "2026-11-26",
+     "ok": 321,
+     "postings": 20543,
+     "seconds": 634.48
+    }
+   },
+   "runner": "actions",
+   "seconds": 98.8
   }
  ],
  "version": 1,
